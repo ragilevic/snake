@@ -1,6 +1,33 @@
+body {
+    padding-top: 50px;
+}
+
 canvas {
-    display: block;
     margin: 0 auto;
-    border: 3px solid #C73E00;
     background-color: #4D4A42;
+}
+
+.canvas_wrapper {
+    margin: 0 auto;
+    background-color: #4D4A42;
+    border: 3px solid #C73E00;
+    width: 320px;
+}
+
+.controls {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.ctrl_button {
+    border: none;
+    background: #C73E00;
+    color: white;
+    text-transform: uppercase;
+    border-radius: 5px;
+    height: 30px;
+    width: 120px;
 }
